@@ -1,6 +1,10 @@
 const restify = require('restify');
-require('dotenv').config();
+
 const bot = require('./bot.js');
+
+var uv = 0;
+
+uv =+ 2;
 
 const connector = new builder.ChatConnector({
     appId: process.env.MICROSOFT_APP_ID,

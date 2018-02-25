@@ -1,5 +1,7 @@
 const builder = require('botbuilder');
 
+const connector = new builder.ConsoleConnector().listen();
+
 const bot = new builder.UniversalBot(connector, [
     (session, args, next) => {
         const botName = 'Build Dialogs Bot';
