@@ -1,0 +1,27 @@
+{
+  "name": "jarbot",
+  "version": "1.0.0",
+  "description": "small bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nao3301/JarBot.git"
+  },
+  "keywords": [
+    "bot",
+    "node"
+  ],
+  "author": "nao3301",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/nao3301/JarBot/issues"
+  },
+  "homepage": "https://github.com/nao3301/JarBot#readme",
+  "dependencies": {
+    "botbuilder": "^3.14.0",
+    "restify": "^6.3.4"
+  }
+}
